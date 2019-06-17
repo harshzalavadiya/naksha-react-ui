@@ -2,7 +2,7 @@ var GeoHash = require("geohash");
 var BoundingBox = require('boundingbox');
 var GeohashAggrKey = require('./aggregate-geohash.js');
 
-module.exports = function(data, level) {
+export default function(data, level) {
 
   if (data.length === 0)
     return {
