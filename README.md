@@ -73,14 +73,14 @@ class NakshaReactUIDemo extends Component {
 - **url_response_geohash_field** - The field in the response data which has geohash aggregation of the form
   ```json
   "geohash-grid": {
-    “buckets”: [
+    "buckets": [
       {
-        “key”: “t”,
-        “doc_count”: 1200310
+        "key": "t",
+        "doc_count": 1200310
       },
       {
-        “key”: “w”,
-        “doc_count”: 109702
+        "key": "w",
+        "doc_count": 109702
       }
     ]
   }
